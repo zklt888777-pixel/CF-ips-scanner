@@ -4,7 +4,7 @@
 ![Python](https://img.shields.io/badge/Python-3.13-green?style=flat-square)
 ![GUI](https://img.shields.io/badge/GUI-customtkinter-ff69b4?style=flat-square)
 
-[<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/YouTube_full-color_icon_%282017%29.svg/40px-YouTube_full-color_icon_%282017%29.svg.png" width="24"> ](https://www.youtube.com/@%E5%A5%BD%E8%BD%AF%E6%8E%A8%E8%8D%90)
+[<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/YouTube_full-color_icon_%282017%29.svg/40px-YouTube_full-color_icon_%282017%29.svg.png" width="24"> ](https://youtu.be/t-CmxbhZq_w)
 
 一键式 Cloudflare CDN IP 延迟与下载速度测试工具，无需 Python 环境，开箱即用。
 
@@ -15,7 +15,6 @@
 - 🎯 **TCP 延迟测试** — 多并发探测目标 IP 的 TCP 握手延迟
 - 🚀 **下载速度测试** — 自动筛选低延迟 IP 进行真实下载测速
 - 📊 **结果自动分类** — 生成「高速优选」和「全部可用」列表
-- 🎨 **Claude 风格深色主题** — 护眼美观
 - 📋 **一键复制结果** — 优选 IP 列表可直接复制到剪贴板
 - ⚙️ **全参数可视化调节** — TCP 超时、并发数、最低速度等滑块实时调节
 - 🖼️ **进度条实时反馈** — 测试进度一目了然
