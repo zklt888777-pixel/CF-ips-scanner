@@ -1,0 +1,17 @@
+{
+  "name": "node-speedtest-server",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "npx tsx watch src/server.ts",
+    "build": "npx tsc -p tsconfig.json",
+    "start": "node dist/server.js"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@types/node": "^24",
+    "tsx": "^4.19.0",
+    "typescript": "~5.9"
+  }
+}
