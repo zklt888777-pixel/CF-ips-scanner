@@ -148,17 +148,17 @@ export function testNodeDownloadSpeed(
     }, timeoutMs);
 
     // 测速文件：选择 Cloudflare 任意 CDN 资源
-    // 用 /cdn-cgi/trace 文本文件，小而快
+    // 用 /__down?bytes=1048576 文本文件，小而快
     const req = https.get(
       {
         host: node.ip,
         port: node.port,
-        path: '/cdn-cgi/trace',
+        path: '/__down?bytes=1048576',
         method: 'GET',
         rejectUnauthorized: false,
-        servername: 'cloudflare.com',
+        servername: 'speed.cloudflare.com',
         headers: {
-          Host: 'cloudflare.com',
+          Host: 'speed.cloudflare.com',
           'User-Agent':
             'Mozilla/5.0 (compatible; NodeSpeedTest/2.0)',
           Accept: '*/*',
@@ -271,10 +271,10 @@ function tryHttpFallback(
     {
       host: node.ip,
       port: 80,
-      path: '/cdn-cgi/trace',
+      path: '/__down?bytes=1048576',
       method: 'GET',
       headers: {
-        Host: 'cloudflare.com',
+        Host: 'speed.cloudflare.com',
         'User-Agent': 'Mozilla/5.0 (compatible; NodeSpeedTest/2.0)',
         Connection: 'close',
       },
